@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Tommy Patterson</title>
+    <link rel="stylesheet" type="text/css" href="diseño.css" />
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/943/943127.png">
+    <script src="proyecto.js"></script>
+</head>
+<body>
+<br>
+<br>
+
+<div class="IMG">
+    
+    <img id="perfil" src="https://randomuser.me/api/portraits/men/5.jpg" alt="Foto de perfil" style="float:right"> 
+    
+</div>
+
+<div class="encabezado">      
+     
+    <h1 style="font-size:300%;">Tommy Patterson</h1>
+
+    <h2>Licenciado en música</h2>
+    <br>
+</div>
+
+<p> Información personal:
+    <a href="#Sobre_mí"> Sobre mí</a>
+    <a href="#Contacto"> Contacto</a>
+    <a href="#Redes"> Redes sociales</a>
+</p>
+
+<div class="principal">
+
+    <h3>Experiencia</h3>
+	<p>A lo largo de mi carrera como profesional ejecuté el bajo eléctrico en las siguientes bandas:</p>
+		<ul>
+			<li>Miranda!</li>
+    		<li>Intoxicados</li>
+    		<li>Carlos Gardel</li>
+    		<li>Ozzy Obsbourne</li>	
+		</ul>
+    <p> En la actualidad hago arreglos para bandas de cuarteto, entre ellas:</p>
+    	<ul>
+        	<li>La Konga</li>
+            <li>La Mona Jiménez</li>
+            <li>Gary</li>
+        </ul>
+        
+    <h3>Habilidades</h3>
+
+    <p>Conocimientos de bajo eléctrico aplicado a la música urbana, blues, rock and roll, jazz y cuarteto. Me caracteriza una gran pasión por la enseñanza, considero poseer comunicación efectiva y afectiva. Además cuento con conocimientos en sonido y servicios de lutheria.</p>
+ 
+    <button onclick="mostrar_bajo()" class="c-button c-button--gooey"> BAJO
+    <div class="c-button__blobs">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+    </button>
+  
+    <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
+                <feBlend in2="goo" in="SourceGraphic"></feBlend>
+            </filter>
+        </defs>
+    </svg>
+
+    <div id="imagen" style="display:none">        
+    <img id="bajo" src="https://http2.mlstatic.com/D_NQ_NP_927015-MLA31594432480_072019-O.webp" alt="Foto de bajo" style="float: center" width="310" height="135" >
+    </div> 
+    <br>
+</div>
+
+<div class="menu">
+
+    <a name="Sobre_mí" />
+    <h4>Sobre mí</h4>
+    <ul>
+        <li>Nacimiento: 8/4/1976</li>
+        <li>Domicilio: Avenida Los Budas 87, Tucumán.</li>
+        <li>Lugar de residencia: San Miguel</li>
+    </ul>
+
+    <a name="Contacto" />
+    <h4>Contacto</h4>
+		<ul>
+        	<li>Celular: (923) 317-5771</li>
+            <li>Mail: tommy.elcrack@example.com</li>
+        </ul>
+    
+    <a name="Redes">
+    <h4>Redes sociales</h4>
+		<ul>
+        	<li>
+                <a target="_blank" href="https://es-la.facebook.com/">
+                <button type="button">
+                <img src="https://w7.pngwing.com/pngs/561/460/png-transparent-fb-facebook-facebook-logo-social-media-icon-thumbnail.png" alt="Facebook" style="float: left 90%" width="20px" height="20px">  @tommyNOiommi</li>
+                </button>
+                </a>
+                <br>
+            <li>
+                <a target="_blank" href="https://twitter.com/?lang=es">
+                <button type="button">
+                <img src="https://e7.pngegg.com/pngimages/708/311/png-clipart-icon-logo-twitter-logo-twitter-logo-blue-social-media-thumbnail.png" alt="Twitter" style="float: left 90%" width="20px" height="20px"> @tommyNOiommiok</li>
+                </button>
+                </a>
+                <br>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/">
+                <button type="button">
+                <img src="https://w7.pngwing.com/pngs/516/314/png-transparent-instagram-icon-computer-icons-logo-instagram-logo-miscellaneous-purple-text-thumbnail.png" alt="Instagram" style="float: left 90%" width="25px" height="20px"> @tommyNOio</li>
+                </button>
+                </a>
+            </ul>
+        
+    <h4>Formación</h4>
+		<ul>
+        	<li>Instituto Nacional de Musica Urbana. <br> &#9900 2003 a 2005</li>
+            <li>Colegio Superior de Musica Nativa Global. <br>  &#9900 2007 a 2009</li>
+            <li>Licenciatura en Musica. <br>  &#9900 2010 a 2016</li>
+        </ul>
+    
+</div>
+</body>
+</html>
